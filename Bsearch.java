@@ -17,7 +17,7 @@ public class Bsearch {
             return m;
         }
         if(target<arr[m]){
-            return binaerSearch(arr, target, start, m-1);
+            return binaerSearch(arr, target, start, m-1);// always return if callin function has the return type
         }else{
             return binaerSearch(arr, target, m+1, end);
         }
